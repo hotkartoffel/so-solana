@@ -1,7 +1,3 @@
-ports:
-  - port: 3000
-    onOpen: open-preview
-
 tasks:
   - init: ./bin/setup.sh
     command: yarn dev

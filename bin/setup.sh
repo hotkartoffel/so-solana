@@ -41,7 +41,7 @@ rustup --version
 cargo --version
 
 # Solana install
-sh -c "$(curl -sSfL https://release.solana.com/v1.8.2/install)"
+sh -c "sh -c "$(curl -sSfL https://release.solana.com/v1.9.0/install)""
 PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
 echo 'PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
 solana config set --url localhost
